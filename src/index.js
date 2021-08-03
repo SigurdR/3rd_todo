@@ -4,9 +4,18 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// The below array is used to avoid calling Todo components 3 times in App.js 
+const DATA = [
+  { id: "todo-0", name: "Eat", completed: true },
+  { id: "todo-1", name: "Sleep", completed: false },
+  { id: "todo-2", name: "Repeat", completed: false }
+]
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+
+    {/*Pass the data array to App.js*/}
+    <App tasks={DATA} />
   </React.StrictMode>,
   document.getElementById('root')
 );
