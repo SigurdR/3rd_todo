@@ -99,7 +99,7 @@ body {
   color: #fff;
   background-color: #000;
 }
-.btn_group {
+.btn-group {
   display: flex;
   justify-content: space-between;
 }
@@ -120,11 +120,11 @@ body {
   width: 1px;
   overflow: hidden;
   clip: rect(1px 1px 1px 1px);
-  clip: rect(1px , 1px, 1px, 1px);
+  clip: rect(1px, 1px, 1px, 1px);
   white-space: nowrap;
 }
 [class*="stack"] > * {
-  margin-top : 0;
+  margin-top: 0;
   margin-bottom: 0;
 }
 .stack-small > * + * {
@@ -133,7 +133,7 @@ body {
 .stack-large > * + * {
   margin-top: 2.5rem;
 }
-@media screeen and (min-width: 550px) {
+@media screen and (min-width: 550px) {
   .stack-small > * + * {
     margin-top: 1.4rem;
   }
@@ -146,13 +146,13 @@ body {
 }
 /* END GLOBAL STYLES */
 .todoapp {
-  background-color: #fff;
-  margin: 2rem 0 4 rem 0;
+  background: #fff;
+  margin: 2rem 0 4rem 0;
   padding: 1rem;
   position: relative;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2),0 2.5rem 5 rem 0 rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),0 2.5rem 5 rem 0 rgba(0, 0, 0, 0.1);
 }
-@media screen and (min-width:  550px) {
+@media screen and (min-width: 550px) {
   .todoapp {
     padding: 4rem;
   }
@@ -237,7 +237,7 @@ body {
   clear: left;
 }
 .c-cb > label::before,
-.c-db > input[type="checkbox"] {
+.c-cb > input[type="checkbox"] {
   box-sizing: border-box;
   top: -2px;
   left: -2px;
