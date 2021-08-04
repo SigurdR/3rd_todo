@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// Totorial of this app https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started
 // The below array is used to avoid calling Todo components 3 times in App.js 
 const DATA = [
   { id: "todo-0", name: "Eat", completed: true },
